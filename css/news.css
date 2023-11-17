@@ -170,3 +170,43 @@
     font-weight:600;
     text-transform: uppercase
   }
+
+  @media (max-width: 768px) {
+    .nav {
+      padding: 0 20px;
+    }
+    .nav_logo{
+      font-size: 12px;
+    }
+    .nav_links{
+      width: 50%;
+    }
+    .nav_links a{
+      font-size: 10px;
+    }
+    .news_sidebar{
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      z-index: 1000;
+      background-color: black;
+      gap: 0.5rem;
+      padding: 0 0.5rem;
+    }
+    .dash{
+      width: 100%;
+    }
+    .card{
+      width: 100%;
+    }
+    .news_dash{
+      flex-direction: column;
+      padding: 5rem 0;
+    }
+    .sidebar_item{
+      width: 20%;
+      height: 3rem;
+      padding: 0.5rem 0rem;
+    }
+  }

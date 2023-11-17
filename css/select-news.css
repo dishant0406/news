@@ -111,3 +111,22 @@
     transform: translateY(2px);
   }
 
+  @media (max-width: 768px) {
+      h1{
+         font-size: 5vw;
+      }
+   
+      .pref{
+         width: 80vw;
+      }
+   
+      .pref_pill{
+         font-size: 4vw;
+         padding: 0.5rem 1rem;
+      }
+   
+      #next{
+         font-size: 4vw;
+      }
+  }
+

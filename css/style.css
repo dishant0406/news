@@ -70,3 +70,23 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
+
+/* response text size increase */
+@media (max-width: 768px) {
+  .name{
+    font-size: 14vw;
+    width: 100%;
+    padding: 0rem;
+    /* line height */
+    line-height: 1.2;
+  }
+  .tagline{
+    font-size: 5vw;
+    width: 100%;
+    padding: 0 1rem;
+    letter-spacing: 0.2rem;
+  }
+  .btn{
+    font-size: 5vw;
+  }
+}
